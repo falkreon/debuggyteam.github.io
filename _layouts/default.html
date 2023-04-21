@@ -10,8 +10,8 @@
 	{% if page.style %}
 	<link rel="stylesheet" href="assets/css/{{page.style}}.css"/>
 	{% endif %}
-	{% for style in page.styles %}
-	<link rel="stylesheet" href="assets/css/{{style}}.css"/>
+	{% for page-style in page.styles %}
+	<link rel="stylesheet" href="assets/css/{{page-style}}.css"/>
 	{% endfor %}
 </head>
 <body>

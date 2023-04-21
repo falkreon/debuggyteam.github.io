@@ -158,21 +158,9 @@ ul, ol {
 	}
 }
 
-.debuggycord {
-	border: none;
-	padding: 15px 32px;
-	color: var(--text-color);
-	background-color: var(--debuggy-team);
-
-	&:hover {
-		filter: saturate(200%);
-	}
-}
-
 .footer {
 	display: grid;
 	grid-template-columns: 100vw 100vw 100vw;
 	padding: 10px;
 	background-color: var(--navbar-color);
  }
-
